@@ -1,0 +1,31 @@
+<div class="editor">
+
+  <!-- Editable Text -->
+  <ul id="textArea" contenteditable="true">
+    <li>
+      <b><i><u>Lorem Ipsum</u></i></b> is simply dummy text of the printing and typesetting industry...
+    </li>
+  </ul>
+
+  <!-- Controls -->
+  <div class="controls">
+
+    <input type="range" min="12" max="40" value="16" id="fontSize">
+
+    <input type="color" id="fontColor">
+
+    <select id="fontFamily">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Verdana">Verdana</option>
+    </select>
+
+    <button onclick="format('bold')">B</button>
+    <button onclick="format('italic')">I</button>
+    <button onclick="format('underline')">U</button>
+    <button onclick="format('insertUnorderedList')">• List</button>
+
+  </div>
+
+</div>
